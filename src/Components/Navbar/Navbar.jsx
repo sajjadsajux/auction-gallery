@@ -4,7 +4,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm flex justify-around items-center">
+      <div className="navbar   flex justify-between items-center max-w-3/4 mx-auto">
         <div className="">
           <a className=" text-2xl font-bold text-yellow-500">
             <span className="text-blue-500">Auction</span>Gallery
