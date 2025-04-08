@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import BidItems from "./Components/BidItems/BidItems";
+import FavItems from "./Components/FavItems/FavItems";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -19,7 +20,9 @@ function App() {
           <div className="left-container w-70%]">
             <BidItems></BidItems>
           </div>
-          <div className="right-container w-[25%]">dssdd</div>
+          <div className="right-container w-[25%]">
+            <FavItems></FavItems>
+          </div>
         </div>
       </div>
       <Footer></Footer>

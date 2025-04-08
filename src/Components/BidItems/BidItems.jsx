@@ -23,16 +23,21 @@ const BidItems = () => {
           </thead>
           <tbody>
             {biditems.map((item) => (
-              <tr key={item.id} className="space-x-44 border-t">
+              <tr
+                key={item.id}
+                className="space-x-32 border-t border-gray-300 border-opacity-40"
+              >
                 <td className=" px-6 py-4 flex gap-5 items-center ">
                   <img className="w-20 h-20" src={item.image} alt="" />
-                  <p>{item.title}</p>
+                  <p className="font-bold">{item.title}</p>
                 </td>
-                <td className=" px-6 py-4 text-center">
+                <td className=" px-6 py-4 text-center font-bold">
                   {item.currentBidPrice}
                 </td>
-                <td className=" px-6 py-4 text-center">{item.timeLeft}</td>
-                <td className=" px-6 py-4 text-center">
+                <td className=" px-6 py-4 text-center font-bold">
+                  {item.timeLeft}
+                </td>
+                <td className=" px-6 py-4 text-center font-bold">
                   <button className="">
                     <FaRegHeart size={25} />
                   </button>
