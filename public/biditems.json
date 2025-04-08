@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Rare Camera",
+    "description": "A rare, high-quality DSLR camera with 4K recording and limited edition features.",
+    "currentBidPrice": 500,
+    "timeLeft": "3d 5h 12m",
+    "bidsCount": 25,
+    "image": "https://i.ibb.co.com/Qv73dqXz/Bid1-min.png"
+  },
+  {
+    "id": 2,
+    "title": "Vintage Guitar",
+    "description": "A rare vintage electric guitar with a smooth finish and premium sound, only a few available.",
+    "currentBidPrice": 150,
+    "timeLeft": "1d 2h 45m",
+    "bidsCount": 18,
+    "image": "https://i.ibb.co.com/rR2wK000/Bid2-min.png"
+  },
+  {
+    "id": 3,
+    "title": "Limited Edition Laptop",
+    "description": "This rare 15-inch laptop is specially crafted for gaming and professional tasks, only a few units left.",
+    "currentBidPrice": 1200,
+    "timeLeft": "2d 10h 30m",
+    "bidsCount": 50,
+    "image": "https://i.ibb.co.com/YTDPj4bm/Bid3-min.png"
+  },
+  {
+    "id": 4,
+    "title": "Exclusive Watch",
+    "description": "A rare luxury wristwatch with stainless steel and sapphire glass, only available in limited quantities.",
+    "currentBidPrice": 250,
+    "timeLeft": "5d 3h 20m",
+    "bidsCount": 34,
+    "image": "https://i.ibb.co.com/MxhkHfFS/Bid4-min.png"
+  },
+  {
+    "id": 5,
+    "title": "Ergonomic Chair (Limited Edition)",
+    "description": "A rare ergonomic office chair with lumbar support and adjustable features, perfect for collectors.",
+    "currentBidPrice": 120,
+    "timeLeft": "4d 6h 10m",
+    "bidsCount": 12,
+    "image": "https://i.ibb.co.com/tMB0ZLgS/Bid5-min.png"
+  },
+  {
+    "id": 6,
+    "title": "First Edition Book (Rare)",
+    "description": "A rare first edition book, a true collector's item, available only in limited copies.",
+    "currentBidPrice": 80,
+    "timeLeft": "1d 8h 50m",
+    "bidsCount": 9,
+    "image": "https://i.ibb.co.com/TqPBTsP6/Bid6-min.png"
+  },
+  {
+    "id": 7,
+    "title": "Masterpiece Painting",
+    "description": "A rare, beautiful landscape painting by a renowned artist, one of the few ever created.",
+    "currentBidPrice": 300,
+    "timeLeft": "6d 12h 5m",
+    "bidsCount": 21,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  },
+  {
+    "id": 8,
+    "title": "Rare Antique Vase",
+    "description": "A rare antique vase from the 18th century, a collector's dream with intricate designs.",
+    "currentBidPrice": 800,
+    "timeLeft": "2d 5h 30m",
+    "bidsCount": 14,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  },
+  {
+    "id": 9,
+    "title": "Limited Edition Sneakers",
+    "description": "Exclusive limited edition sneakers with only a few pairs left worldwide, a must-have for sneakerheads.",
+    "currentBidPrice": 350,
+    "timeLeft": "3d 8h 15m",
+    "bidsCount": 22,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  },
+  {
+    "id": 10,
+    "title": "Rare Vintage Watch",
+    "description": "A rare vintage watch from the early 1900s, sought after by collectors for its timeless design.",
+    "currentBidPrice": 600,
+    "timeLeft": "4d 12h 40m",
+    "bidsCount": 30,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  },
+  {
+    "id": 11,
+    "title": "Exclusive Artwork",
+    "description": "A rare and exclusive artwork by a contemporary artist, a unique piece with artistic value.",
+    "currentBidPrice": 1500,
+    "timeLeft": "5d 2h 50m",
+    "bidsCount": 10,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  },
+  {
+    "id": 12,
+    "title": "Antique Sword",
+    "description": "A rare antique sword dating back to the medieval period, a valuable item for history enthusiasts.",
+    "currentBidPrice": 1200,
+    "timeLeft": "6d 1h 15m",
+    "bidsCount": 8,
+    "image": "https://i.ibb.co.com/tT7M2bsR/Bid7-min.png"
+  }
+]
