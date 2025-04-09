@@ -23,7 +23,11 @@ function App() {
   const HandleRemoveFav = (id) => {
     const updatedFavs = favs.filter((item) => item.id !== id);
     setFavs(updatedFavs);
-    setClickheart({ ...clickheart, [id.id]: false });
+    setClickheart({ ...clickheart, [id]: false });
+    toast.error("An item is removed from favorites", {
+      position: "top-right",
+      autoClose: 2000,
+    });
   };
   return (
     <>

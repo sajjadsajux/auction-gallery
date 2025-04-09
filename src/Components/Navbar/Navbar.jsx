@@ -6,21 +6,21 @@ const Navbar = () => {
     <div>
       <div className="navbar   flex justify-between items-center max-w-3/4 mx-auto">
         <div className="">
-          <a className=" text-2xl font-bold text-yellow-500">
-            <span className="text-blue-500">Auction</span>Gallery
+          <a className=" text-3xl font-bold text-yellow-500">
+            <span className="text-blue-500 font-semibold">Auction</span>Gallery
           </a>
         </div>
-        <div className="flex gap-10">
-          <h1 className="text-xl font-semibold">
+        <div className="flex gap-10 poppins-regular">
+          <h1 className="text-xl ">
             <a href="">Home</a>
           </h1>
-          <h1 className="text-xl font-semibold">
+          <h1 className="text-xl ">
             <a href="">Auctions</a>
           </h1>
-          <h1 className="text-xl font-semibold">
+          <h1 className="text-xl ">
             <a href="">Categories</a>
           </h1>
-          <h1 className="text-xl font-semibold">
+          <h1 className="text-xl ">
             <a href="">How to works</a>
           </h1>
         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
           <div className="avatar">
             <div className="w-10 rounded-full">
-              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              <img src="https://i.ibb.co.com/RTqzmQ3B/012027201.jpg" />
             </div>
           </div>
         </div>
