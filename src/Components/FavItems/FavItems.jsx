@@ -19,7 +19,7 @@ const FavItems = ({ favs, HandleRemoveFav }) => {
       <div className="bg-white rounded-3xl space-y-4 py-8">
         <div className="flex items-center justify-center gap-3 py-1 text-blue-500">
           <FaRegHeart size={25} />
-          <h4 className="text-3xl font-bold">Favorite Items</h4>
+          <h4 className="text-3xl font-bold ">Favorite Items</h4>
         </div>
         {favs.length === 0 ? (
           <div className="blank text-center space-y-5 p-13 border-t border-gray-200 border-opacity-40">

@@ -37,9 +37,7 @@ function App() {
       <Banner></Banner>
       <div className="bg-[#EBF0F5] w-full">
         <div className="max-w-3/4 mx-auto py-16 space-y-5">
-          <h1 className="text-3xl text-blue-500 sora-font font-semibold">
-            Active Auctions
-          </h1>
+          <h1 className="text-3xl text-blue-500  font-bold">Active Auctions</h1>
           <p className="text-xl sora-font">
             Discover and bid on extraordinary items
           </p>

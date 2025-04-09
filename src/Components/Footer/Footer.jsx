@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="navbar bg-base-100  flex flex-col justify-around items-center space-y-3 p-20">
+      <div className="navbar bg-base-100  flex flex-col justify-around items-center space-y-5 p-20">
         <div className="">
           <a className=" text-3xl font-bold text-yellow-500">
             <span className="text-blue-500 font-semibold">Auction</span>Gallery
