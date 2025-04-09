@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import BidItems from "./Components/BidItems/BidItems";
@@ -6,6 +7,10 @@ import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
+  const [favs, setFavs] = useState([]);
+  const HandleBidButton = (item) => {
+    setFavs([...favs, item]);
+  };
   return (
     <>
       <Navbar></Navbar>
@@ -17,11 +22,11 @@ function App() {
         </div>
 
         <div className="container max-w-3/4 mx-auto flex justify-between">
-          <div className="left-container w-70%]">
-            <BidItems></BidItems>
+          <div className="left-container w-50%]">
+            <BidItems HandleBidButton={HandleBidButton}></BidItems>
           </div>
-          <div className="right-container w-[25%]">
-            <FavItems></FavItems>
+          <div className="right-container w-[30%]">
+            <FavItems favs={favs}></FavItems>
           </div>
         </div>
       </div>
