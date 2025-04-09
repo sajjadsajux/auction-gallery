@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Rare 1950s Camera",
+    "title": "Rare 1950s Fujifilm Camera ",
     "description": "A rare, high-quality DSLR camera with 4K recording and limited edition features.",
     "currentBidPrice": 800,
     "timeLeft": "3d 5h 12m",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": "Vintage Guitar Classic Tune",
+    "title": "1965 Gibson SG Electric Guitar",
     "description": "A rare vintage electric guitar with a smooth finish and premium sound, only a few available.",
     "currentBidPrice": 350,
     "timeLeft": "1d 2h 45m",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "title": "Limited Edition Laptop Only 200 Made",
+    "title": "Limited Edition HP Ultimate",
     "description": "This rare 15-inch laptop is specially crafted for gaming and professional tasks, only a few units left.",
     "currentBidPrice": 1200,
     "timeLeft": "2d 10h 30m",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "title": "Royal Prestige Watch",
+    "title": "Rolex Royal Submariner 16610",
     "description": "A rare luxury wristwatch with stainless steel and sapphire glass, only available in limited quantities.",
     "currentBidPrice": 250,
     "timeLeft": "5d 3h 20m",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "title": "Ergonomic Chair of 90s",
+    "title": "Ergonomic Chair of 80s",
     "description": "A rare ergonomic office chair with lumbar support and adjustable features, perfect for collectors.",
     "currentBidPrice": 120,
     "timeLeft": "4d 6h 10m",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "title": "First Edition Book 1932",
+    "title": "First Edition of Legend R. Kaur",
     "description": "A rare first edition book, a true collector's item, available only in limited copies.",
     "currentBidPrice": 80,
     "timeLeft": "1d 8h 50m",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "title": "Signed Masterpiece Painting",
+    "title": "Banksy Original Screen  Painting",
     "description": "A rare, beautiful landscape painting by a renowned artist, one of the few ever created.",
     "currentBidPrice": 300,
     "timeLeft": "6d 12h 5m",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "title": "Rare Antique Vase",
+    "title": "18th Century Antique Vase ",
     "description": "A rare antique vase from the 18th century, a collector's dream with intricate designs.",
     "currentBidPrice": 600,
     "timeLeft": "2d 5h 30m",
@@ -82,8 +82,8 @@
   },
   {
     "id": 10,
-    "title": "Rare 1962 Director’s Cut DVD",
-    "description": "A rare vintage watch from the early 1900s, sought after by collectors for its timeless design.",
+    "title": "1962 Director’s Cut DVD",
+    "description": "A rare vintage watch from the early 1962s, sought after by collectors for its timeless design.",
     "currentBidPrice": 600,
     "timeLeft": "4d 12h 40m",
     "bidsCount": 30,
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "title": "Antique Battle Sword",
+    "title": "Historical Battle Sword",
     "description": "A rare antique sword dating back to the medieval period, a valuable item for history enthusiasts.",
     "currentBidPrice": 2999,
     "timeLeft": "6d 1h 15m",

@@ -27,7 +27,7 @@ const BidItems = ({ HandleBidButton, clickheart }) => {
             {biditems.map((item) => (
               <tr
                 key={item.id}
-                className=" border-t border-gray-200 border-opacity-40 text-[#0E2954] sora-font"
+                className="space-x-8 border-t border-gray-200 border-opacity-40 text-[#0E2954] sora-font"
               >
                 <td className=" px-6 py-4 flex gap-5 items-center ">
                   <img
