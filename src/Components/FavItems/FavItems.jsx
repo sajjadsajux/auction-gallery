@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 
-const FavItems = ({ favs }) => {
+const FavItems = ({ favs, HandleRemoveFav }) => {
   console.log(favs);
+  const [totalamount, setTotalamount] = useState(0);
+
+  useEffect(() => {
+    let total = 0;
+    for (const price of favs) {
+      total = total + price.currentBidPrice;
+    }
+    setTotalamount(total);
+  }, [favs]);
 
   return (
     <div>
@@ -22,7 +31,7 @@ const FavItems = ({ favs }) => {
             {favs.map((fav) => (
               <div
                 key={fav.id}
-                className="flex justify-between border-t border-gray-300 border-opacity-40 p-5"
+                className="flex justify-between border-t border-gray-300 border-opacity-40 p-3"
               >
                 <div>
                   <img
@@ -33,15 +42,15 @@ const FavItems = ({ favs }) => {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-18 ">
                   <div className="">
-                    <h5 className=" text-center">{fav.title}</h5>
+                    <h5 className=" text-left">{fav.title}</h5>
                   </div>
-                  <div className="flex space-x-10">
-                    <h5 className="">${fav.currentBidPrice}</h5>
-                    <h5 className="">Bids: {fav.bidsCount}</h5>
+                  <div className="flex gap-10">
+                    <h5 className="text-left">${fav.currentBidPrice}</h5>
+                    <h5 className="text-left">Bids: {fav.bidsCount}</h5>
                   </div>
                 </div>
                 <div>
-                  <button>
+                  <button onClick={() => HandleRemoveFav(fav.id)}>
                     <RxCross2 size={20} />
                   </button>
                 </div>
@@ -52,7 +61,7 @@ const FavItems = ({ favs }) => {
 
         <div className="flex justify-around border-t border-gray-300 border-opacity-40 pt-5">
           <h4 className="text-2xl font-bold">Total bids Amount</h4>
-          <h4 className="text-2xl font-bold">$0</h4>
+          <h4 className="text-2xl font-bold">${totalamount}</h4>
         </div>
       </div>
     </div>
