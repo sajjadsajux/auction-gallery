@@ -4,17 +4,19 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div className="bannner-container ">
-        <div className="banner-text max-w-3/4 mx-auto  space-y-5 py-52 ">
-          <h1 className="text-5xl text-white font-bold">
-            Discover & Bid on <br />
-            Rare Global Finds
+      <div className="bannner-container sora-font">
+        <div className="banner-text max-w-3/4 mx-auto  space-y-7 py-56 ">
+          <h1 className="text-5xl text-white font-semibold ">
+            Bid on Unique Items from <br />
+            Around the World
           </h1>
-          <p className="text-xl text-white ">
-            Find rare items, luxury products, and old <br /> treasures in our
-            special auctions
+          <p className="text-xl text-white font-extralight">
+            Discover rare collectibles, luxury goods, and vintage <br />
+            treasures in our curated auctions
           </p>
-          <button className="btn rounded-full">Explore Auctions</button>
+          <button className="btn rounded-full font-semibold">
+            Explore Auctions
+          </button>
         </div>
       </div>
     </div>
