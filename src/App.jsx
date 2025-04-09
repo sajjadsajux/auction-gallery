@@ -9,14 +9,21 @@ import { ToastContainer, toast } from "react-toastify";
 
 function App() {
   const [favs, setFavs] = useState([]);
+
+  const [clickheart, setClickheart] = useState({});
+
   const HandleBidButton = (item) => {
-    setFavs([...favs, item]);
-    toast("An item is added to favorites.");
+    if (!clickheart[item.id]) {
+      setFavs([...favs, item]);
+      setClickheart({ ...clickheart, [item.id]: true });
+      toast("An item is added to favorites.");
+    }
   };
 
   const HandleRemoveFav = (id) => {
     const updatedFavs = favs.filter((item) => item.id !== id);
     setFavs(updatedFavs);
+    setClickheart({ ...clickheart, [id.id]: false });
   };
   return (
     <>
@@ -32,7 +39,10 @@ function App() {
 
         <div className="container max-w-3/4 mx-auto flex justify-between">
           <div className="left-container w-50%]">
-            <BidItems HandleBidButton={HandleBidButton}></BidItems>
+            <BidItems
+              HandleBidButton={HandleBidButton}
+              clickheart={clickheart}
+            ></BidItems>
           </div>
           <div className="right-container w-[30%]">
             <FavItems favs={favs} HandleRemoveFav={HandleRemoveFav}></FavItems>

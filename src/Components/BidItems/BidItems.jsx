@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
+import { FaHeart } from "react-icons/fa";
 
-const BidItems = ({ HandleBidButton }) => {
+const BidItems = ({ HandleBidButton, clickheart }) => {
   const [biditems, setBiditems] = useState([]);
   useEffect(() => {
     fetch("biditems.json")
@@ -45,8 +47,18 @@ const BidItems = ({ HandleBidButton }) => {
                   <button
                     className="btn-ghost"
                     onClick={() => HandleBidButton(item)}
+                    disabled={clickheart[item.id]}
+                    style={{
+                      color: clickheart[item.id] ? "red" : "black",
+                      cursor: clickheart[item.id] ? "not-allowed" : "pointer",
+                    }}
                   >
-                    <FaRegHeart size={25} />
+                    {/* <FaRegHeart size={25} /> */}
+                    {clickheart[item.id] ? (
+                      <FaHeart size={25} />
+                    ) : (
+                      <FaRegHeart size={25} />
+                    )}
                   </button>
                 </td>
               </tr>
