@@ -11,27 +11,17 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex gap-10 poppins-regular">
-          <h1 className="text-xl ">
-            <a href="">Home</a>
-          </h1>
-          <h1 className="text-xl ">
-            <a href="">Auctions</a>
-          </h1>
-          <h1 className="text-xl ">
-            <a href="">Categories</a>
-          </h1>
-          <h1 className="text-xl ">
-            <a href="">How to works</a>
-          </h1>
+          <h1 className="text-xl ">Home</h1>
+          <h1 className="text-xl ">Auctions</h1>
+          <h1 className="text-xl ">Categories</h1>
+          <h1 className="text-xl ">How it Works</h1>
         </div>
         <div className="gap-5 flex items-center justify-center">
           <div className="relative bg-[#ebf0f5] rounded-4xl p-2">
-            <a href="">
-              <IoMdNotificationsOutline size={25} />
-              <span className="absolute top-1 right-1 bg-blue-900 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
-                9
-              </span>
-            </a>
+            <IoMdNotificationsOutline size={25} />
+            <span className="absolute top-1 right-1 bg-blue-900 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
+              9
+            </span>
           </div>
           <div className="avatar">
             <div className="w-10 rounded-full">

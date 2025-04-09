@@ -37,11 +37,15 @@ function App() {
       <Banner></Banner>
       <div className="bg-[#EBF0F5] w-full">
         <div className="max-w-3/4 mx-auto py-16 space-y-5">
-          <h1 className="text-3xl">Active Auctions</h1>
-          <p className="text-xl">Discover and bid on extraordinary items</p>
+          <h1 className="text-3xl text-[#0E2954] sora-font font-semibold">
+            Active Auctions
+          </h1>
+          <p className="text-xl sora-font">
+            Discover and bid on extraordinary items
+          </p>
         </div>
 
-        <div className="container max-w-3/4 mx-auto flex justify-between">
+        <div className="container max-w-3/4 mx-auto flex justify-between gap-2">
           <div className="left-container w-50%]">
             <BidItems
               HandleBidButton={HandleBidButton}
