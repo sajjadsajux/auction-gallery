@@ -11,6 +11,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-xl font-medium sora-font">Bid. Win. Own.</h4>
+          {/* <h4 className="text-xl font-medium sora-font">Bid. Win. Own.</h4> */}
         </div>
         <div className="flex gap-10 poppins-regular">
           <h1 className=" ">Home</h1>
@@ -19,9 +20,7 @@ const Footer = () => {
           <h1 className=" ">How it Works</h1>
         </div>
         <div>
-          <small className="sora-font">
-            © 2025 Auction Gallery BD. All rights reserved.
-          </small>
+          <small className="sora-font">© 2025 Auction Gallery BD. All rights reserved.</small>
         </div>
       </div>
     </div>
